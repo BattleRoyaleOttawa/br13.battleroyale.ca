@@ -19,7 +19,7 @@ style:
 
 # Event information.
 event:
-  name:        "Battle Royale XII"
+  name: "Battle Royale XIII"
   description: "24 Hour LAN Party!"
   # Frequently asked questions.
   faq_left:
@@ -38,20 +38,20 @@ event:
         Of course not! Once all of your games are done, you are free to go, but since Battle Royale is all about fun and socializing, we strongly recommend you stay and meet new people! However, DO NOT skip any of your games! If you do, you will be automatically forfeited and disqualified from your tournament. (And you DON'T want that)
     - question: "> Can I return my ticket or give it to someone else?"
       answer: >
-       All sales are final, meaning we do not offer refunds for tickets. However, tickets are transferable, meaning that you can give your ticket to someone else.  Please note however, that if a tournament doesn't receive enough competitors, it will be cancelled, with no ticket refund. You can prevent this by inviting your friends to play in that tournament!
+        All sales are final, meaning we do not offer refunds for tickets. However, tickets are transferable, meaning that you can give your ticket to someone else.  Please note however, that if a tournament doesn't receive enough competitors, it will be cancelled, with no ticket refund. You can prevent this by inviting your friends to play in that tournament!
   faq_right:
     - question: "> What happens when I get there?"
       answer: >
         Once you enter Battle Royale, you'll be almost instantly immersed in the vibrant atmosphere. We ask that you make your way to the registration desk, where you'll be able to sign in and hand in your waiver form. After that you'll then make your way to your designated seat. Our volunteers will always be around, so feel free to ask them if you have any questions or if you need help.
     - question: "> Where can I park at the event?"
       answer: >
-       There will be free parking over the weekend in Lots 8, 9 and 12 at Algonquin College.
+        There will be free parking over the weekend in Lots 8, 9 and 12 at Algonquin College.
     - question: "> What's the difference between a major and minor tournament?"
       answer: >
-       Major tournaments are the games at Battle Royale that are the most popular. This year, CS GO will be a major tournament. Every tournament that isn't a major tournament will be a minor tournament. Major tournaments are obviously expected to have more competitors, so the competition will be higher. (But also more epic) Because of this, prizes for major tournaments will be substantially better and worth more money.
+        Major tournaments are the games at Battle Royale that are the most popular. This year, CS GO will be a major tournament. Every tournament that isn't a major tournament will be a minor tournament. Major tournaments are obviously expected to have more competitors, so the competition will be higher. (But also more epic) Because of this, prizes for major tournaments will be substantially better and worth more money.
     - question: "> Is it possible to volunteer at the event?"
       answer: >
-       Yep! See the logistics section of the website for a volunteer form.
+        Yep! See the logistics section of the website for a volunteer form.
     - question: "> What happens if I miss my game or it overlaps with another?"
       answer: >
         We do our best to avoid scheduling conflicts however should one arise the major tournament will always take priorty. This means you may need to forefit from your minor tournament, though we'll do our best to prevent this!
@@ -62,10 +62,10 @@ event:
 
 markdown: kramdown
 exclude:
- - node_modules
- - gulpfile.js
- - Gemfile
- - Gemfile.lock
- - package.json
- - README.md
- - CNAME
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - CNAME

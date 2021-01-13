@@ -115,7 +115,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse {
   z-index: -1;
   display: block;
   background-image: url("../images/BR.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
