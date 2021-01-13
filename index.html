@@ -1,0 +1,296 @@
+---
+layout: default
+---
+<!--
+Pew Pew
+-->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">
+                <img src="images/logo.png" height="50" alt="">
+              </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a class="page-scroll" href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#about">ABOUT</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#games">GAMES</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#tickets">TICKETS</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#logistics">LOGISTICS</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#patrons">PATRONS</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#faq">FAQ</a>
+                  </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="https://www.facebook.com/battleroyaleottawa/">
+                    <i class="fab fa-facebook-square fa-lg" aria-hidden="true" style="color:white;"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://discord.gg/Ct67DzD/">
+                    <i class="fab fa-discord fa-lg" aria-hidden="true" style="color:white;"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+
+<section class="hero">
+</section>
+
+<section id="about" class="texture-background">
+  <div class="container">
+    <h1 class="text-center intro-title">
+      WELCOME TO OTTAWA'S LARGEST 24-HR GAMING COMPETITION!
+    </h1>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 intro-text">
+        <p class="intro-text">From intense gaming, to extraordinary prizes and unbeatable bragging rights, Battle Royale has it all.</p>
+        <p class="intro-text">Every year, over 100 competitors bring their best to Ottawa's largest 24-hour gaming event, for a chance to win incredible prizes!</p>
+        <p class="intro-text">If you think you have what it takes to rise to the top or simply want to have a good time, Battle Royale is for you.</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div id="promo" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/slideshow/1.jpg">
+            </div>
+            {% for i in (2..40) %}
+            <div class="item">
+              <img src="images/slideshow/{{ i }}.jpg">
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="games">
+  <div class="container">
+    <h1 class="text-center title">
+      GAMES &amp; PRIZES
+    </h1>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="row">
+          <div class="col-xs-12">
+            <img class="img-responsive center-block game-logo" src="images/games/csgo.png">
+          </div>
+          <div class="col-xs-6">
+            <img class="img-responsive center-block game-logo" src="images/games/rocketleague.png">
+          </div>
+          <div class="col-xs-6">
+            <img class="img-responsive center-block game-logo" src="images/games/lol.png">
+          </div>
+          <div class="col-xs-6">
+            <img class="img-responsive center-block game-logo" src="images/games/hearthstone.png">
+          </div>
+          <div class="col-xs-6">
+            <img class="img-responsive center-block game-logo" src="images/games/overwatch.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <p class="subheading">Games</p>
+        <p>Every year, Battle Royale has been one of the most epic gaming competitions in Ottawa, with legendary prizes and intense games. And this year is no exception.</p>
+        <p>Battle Royale XIII will feature many popular games, with each game featuring its own tournament and special prizes! Tournaments will take place at different times during the day &amp; night!</p>
+        <p class="subheading">Prizes</p>
+        <p>This year's prize pools can be seen on the eventbrite page! Click the "Tickets" button below to view all the details regarding the prizes!</p>
+      </div>
+      <div class="col-xs-12">
+      	<br><br>
+        <p><b>IMPORTANT:</b> This year, CS:GO and League of Legends will be major tournaments. Tickets for major tournaments will cost more, but prizes will increase substantially in value and the competition and intensity will be more epic.<p>
+      </div>
+      <div class="col-xs-12">
+        <p style="margin-bottom: 0px;"><i>Looking for a team?</i> Join our <a href="https://discord.gg/Ct67DzD">discord server</a> and let people know what game you're playing in #team-formation!<p>
+        <br>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id ="tickets">
+  <div class="container">
+    <h1 class="text-center title">
+      TICKETS
+    </h1>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>
+          If you're an IEEE member, you will receive a discount. Just be sure to provide proof of membership! For more information on tickets, prizes, and prize pools, please press the "Purchase Ticket" button below which will bring you to our Eventbrite page.
+        </p>
+        <br>
+        <br>
+      </div>
+      <div class="col-xs-12">
+        <a href="/" class="btn btn-primary btn-large btn-block">
+          Purchase Ticket
+        </a>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="logistics">
+  <div class="container">
+    <h1 class="text-center title">
+      LOGISTICS
+    </h1>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="row">
+          <div class="col-xs-12"><p><b>Dates:</b> January 22nd to 23rd</p></div>
+          <div class="col-xs-12"><p><b>Times:</b> 6PM Friday to 6PM Saturday</p></div>
+          <div class="col-xs-12"><p><b>Venue:</b> Cyberspace (Battle Royale Discord Server)</p></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+              Please be sure to fill out the event waiver (location pending) during registration. 
+            </p>
+            <p style="margin-bottom: 0px;">
+            </p>
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <!--Discord image.-->
+      </div>
+        
+    </div>
+  </div>
+</section>
+<section id = "schedule">
+	<div class="container">
+    <!-- <h1 class="text-center title">
+      SCHEDULE
+    </h1> -->
+    <!-- <p class="text-center">
+          COMING SOON!
+        </p> -->
+        <img class="img-responsive center-block" src="images/sched.png">  
+        <br>
+            <br>
+            <br>
+</section>
+
+<section id ="patrons">
+  <div class="container">
+<!--     <h1 class="text-center">
+      Patrons
+    </h1>
+    <div class="patrons">
+    </div> -->
+    <h1 class="text-center title">
+      COMMUNITY PARTNERS
+    </h1>
+    <div class="community-partners">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive center-block logo-ieee-ottawa" src="images/partners/ieee.png">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive center-block logo-ieee-uottawa" src="images/partners/uottawa.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive center-block logo-algonquin" src="images/partners/algonquin.png">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive center-block logo-carleton" src="images/partners/carleton.png">
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center title" style="margin: 20px 0px 5px;">
+      CHARITY
+    </h1>
+    <div class="charity">
+      <div class="col-xs-12">
+        <img class="img-responsive center-block" src="images/partners/cheo.png">
+          <br>
+            <br>
+            <br>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id ="faq">
+  <div class="container">
+    <h1 class="text-center title">
+        FREQUENTLY ASKED QUESTIONS
+    </h1>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+          {% for item in site.event.faq_left %}
+          <div class="accordion faq-left">
+              <div class="accordion-section">
+                  <a class="accordion-section-title faq-title-left" href="#accordion-left-{{ forloop.index }}">{{ item.question }}</a>
+                  <div id="accordion-left-{{ forloop.index }}" class="accordion-section-content faq-content-left">
+                      <p>{{ item.answer | markdownify }}</p>
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+      </div>
+      <div class="col-xs-12 col-md-6">
+          {% for item in site.event.faq_right %}
+          <div class="accordion">
+              <div class="accordion-section">
+                  <a class="accordion-section-title faq-title-right" href="#accordion-right-{{ forloop.index }}">{{ item.question }}</a>
+                  <div id="accordion-right-{{ forloop.index }}" class="accordion-section-content faq-content-right">
+                      <p>{{ item.answer | markdownify }}</p>
+
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+</section>
+
+
+</body>
