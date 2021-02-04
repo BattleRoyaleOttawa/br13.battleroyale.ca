@@ -247,6 +247,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse {
   border-bottom: 20px solid #d63232;
 }
 
+.bigbtn,
 #tickets .btn,
 #logistics .btn {
   min-height: 100px;
