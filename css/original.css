@@ -115,8 +115,8 @@ div.collapse.navbar-collapse.navbar-ex1-collapse {
   z-index: -1;
   display: block;
   background-image: url("/images/br/BR_ovgtdm_c_scale,w_1400.png");
-  background-image: image-set(
-    url("/images/br/BR_ovgtdm_c_scale,w_200.png") 200w, 
+  background-image: -webkit-image-set(
+    url("/images/br/BR_ovgtdm_c_scale,w_200.png") 200w,
     url("/images/br/BR_ovgtdm_c_scale,w_348.png") 348w,
     url("/images/br/BR_ovgtdm_c_scale,w_461.png") 461w,
     url("/images/br/BR_ovgtdm_c_scale,w_563.png") 563w,
