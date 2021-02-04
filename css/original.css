@@ -114,7 +114,29 @@ div.collapse.navbar-collapse.navbar-ex1-collapse {
   right: 0;
   z-index: -1;
   display: block;
-  background-image: url("../images/br/BR_ovgtdm_c_scale,w_1400.png");
+  background-image: url("/images/br/BR_ovgtdm_c_scale,w_1400.png");
+  background-image: image-set(
+    url("/images/br/BR_ovgtdm_c_scale,w_200.png") 200w, 
+    url("/images/br/BR_ovgtdm_c_scale,w_348.png") 348w,
+    url("/images/br/BR_ovgtdm_c_scale,w_461.png") 461w,
+    url("/images/br/BR_ovgtdm_c_scale,w_563.png") 563w,
+    url("/images/br/BR_ovgtdm_c_scale,w_639.png") 639w,
+    url("/images/br/BR_ovgtdm_c_scale,w_719.png") 719w,
+    url("/images/br/BR_ovgtdm_c_scale,w_784.png") 784w,
+    url("/images/br/BR_ovgtdm_c_scale,w_848.png") 848w,
+    url("/images/br/BR_ovgtdm_c_scale,w_915.png") 915w,
+    url("/images/br/BR_ovgtdm_c_scale,w_974.png") 974w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1023.png") 1023w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1079.png") 1079w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1135.png") 1135w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1181.png") 1181w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1227.png") 1227w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1276.png") 1276w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1322.png") 1322w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1363.png") 1363w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1386.png") 1386w,
+    url("/images/br/BR_ovgtdm_c_scale,w_1400.png") 1400w
+  );
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
