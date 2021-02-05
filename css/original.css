@@ -13,6 +13,10 @@
   padding: 0;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 a {
   color: white;
   text-decoration: underline;
@@ -86,6 +90,23 @@ section:not(#faq) p {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+a.page-scroll{
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-default,
+.navbar-toggle,
+.navbar-default.container,
+.navbar-collapse {
+  background-color: black !important;
+  border-color: #630000 !important;
+}
+
+span.icon-bar {
+  background-color: #b54747 !important;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -245,6 +266,11 @@ div.collapse.navbar-collapse.navbar-ex1-collapse {
 }
 #logistics {
   border-bottom: 20px solid #d63232;
+}
+
+.schedule {
+  width: 100%;
+  display: block;
 }
 
 .bigbtn,
